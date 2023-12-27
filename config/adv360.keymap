@@ -50,11 +50,11 @@
 
         layer_combos {
             bindings = <
- &kp EQUAL           &kp N1    &kp N2           &kp N3           &kp N4  &kp N5            &trans                                                           &mo 3                         &kp N6                     &kp KP_NUM               &kp KP_EQUAL                    &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
-   &kp TAB            &kp Q     &kp W            &kp E            &kp R   &kp T             &none                                                           &none                          &kp Y                    &kp LS(TAB)                    &kp TAB                   &kp LEFT_SHIFT     &kp KP_MINUS   &kp BSLH
-   &kp ESC  &mt LC(A) LG(A)     &kp S            &kp D     &kp LEFT_ALT   &kp G             &none  &trans    &trans                     &trans     &trans   &none                          &kp H                      &kp ENTER              &kp BACKSPACE                 &kp LEFT_COMMAND      &kp KP_PLUS    &kp SQT
- &kp LSHFT            &kp Z     &kp X  &mt LC(C) LG(C)  &mt LC(V) LG(V)   &kp B                            &kp HOME                  &kp PG_UP                     &mt LS(LEFT_ARROW) LEFT_ARROW  &mt LS(DOWN_ARROW) DOWN_ARROW  &mt LS(UP_ARROW) UP_ARROW  &mt LS(RIGHT_ARROW) RIGHT_ARROW     &kp KP_ENTER  &kp RSHFT
-     &mo 2        &kp GRAVE  &kp CAPS         &kp LEFT        &kp RIGHT                    &trans  &trans   &kp END                  &kp PG_DN  &kp ENTER   &mo 1                                                        &kp UP                   &kp DOWN                       &kp KP_DOT         &kp RBKT      &mo 2
+ &kp EQUAL           &kp N1    &kp N2           &kp N3           &kp N4  &kp N5            &trans                                                           &mo 3                         &kp N6                     &kp KP_NUM               &kp KP_EQUAL                    &kp KP_DIVIDE   &kp KP_MULTIPLY  &kp MINUS
+   &kp TAB            &kp Q     &kp W            &kp E            &kp R   &kp T             &none                                                           &none                          &kp Y                    &kp LS(TAB)                    &kp TAB                   &kp LEFT_SHIFT      &kp KP_MINUS   &kp BSLH
+   &kp ESC  &mt LC(A) LG(A)     &kp S            &kp D     &kp LEFT_ALT   &kp G             &none  &trans    &trans                     &trans     &trans   &none                          &kp H                      &kp ENTER              &kp BACKSPACE                     &kp LEFT_ALT  &kp LEFT_COMMAND    &kp SQT
+ &kp LSHFT            &kp Z     &kp X  &mt LC(C) LG(C)  &mt LC(V) LG(V)   &kp B                            &kp HOME                  &kp PG_UP                     &mt LS(LEFT_ARROW) LEFT_ARROW  &mt LS(DOWN_ARROW) DOWN_ARROW  &mt LS(UP_ARROW) UP_ARROW  &mt LS(RIGHT_ARROW) RIGHT_ARROW      &kp KP_ENTER  &kp RSHFT
+     &mo 2        &kp GRAVE  &kp CAPS         &kp LEFT        &kp RIGHT                    &trans  &trans   &kp END                  &kp PG_DN  &kp ENTER   &mo 1                                                        &kp UP                   &kp DOWN                       &kp KP_DOT          &kp RBKT      &mo 2
             >;
         };
 
