@@ -14,7 +14,6 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/backlight.h>
@@ -64,7 +63,7 @@
  &kp F1                    &kp F2       &kp F3                &kp F4                 &kp F5               &kp F6            &tog 1                                                          &mo 3         &kp F7             &kp F8            &kp F9        &kp F10           &kp F11  &kp F12
  &trans  &mt EXCLAMATION QUESTION  &kp AT_SIGN        &kp LEFT_BRACE        &kp RIGHT_BRACE             &kp PIPE             &none                                                          &none  &kp AMPERSAND          &kp MINUS         &kp UNDER      &kp COLON          &kp STAR   &trans
  &trans                  &kp HASH   &kp DOLLAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &mt BACKSLASH SLASH             &none         &trans  &trans                  &trans  &trans   &none      &kp EQUAL  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp SEMICOLON         &kp CARET   &trans
- &trans               &kp PERCENT    &kp CARET      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &mt GRAVE TILDE                                   &trans                  &trans                       &kp PLUS            &kp DOT         &kp COMMA         &kt LT  &kp GREATER_THAN   &trans
+ &trans               &kp PERCENT    &kp CARET      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &mt GRAVE TILDE                                   &trans                  &trans                       &kp PLUS            &kp DOT         &kp COMMA         &kp LT  &kp GREATER_THAN   &trans
  &trans                    &trans       &trans                &trans                 &trans                                 &trans  &kp BACKSPACE  &trans                  &trans  &trans  &trans                            &trans            &trans         &trans            &trans   &trans
             >;
         };
